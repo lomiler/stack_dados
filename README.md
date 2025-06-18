@@ -29,3 +29,6 @@ Conn Id: spark_default
 Conn Type: Spark
 Host: spark://spark-master
 Port: 7077
+
+6) Lembrar de criar o arquivo ".env.spark" na pasta raiz com editor de texto e inserir este conteúdo dentro:
+SPARK_NO_DAEMONIZE=true
