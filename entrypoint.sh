@@ -13,8 +13,8 @@ if [ ! -f "/opt/airflow/airflow.db" ]; then
     --firstname admin \
     --lastname admin \
     --role Admin \
-    --email suporte@datascienceacademy.com.br \
-    --password dsacademy
+    --email cluster@cluster.com.br \
+    --password cluster
 fi
 
 $(command -v airflow) db upgrade
