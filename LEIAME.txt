@@ -1,0 +1,19 @@
+# Abra a janela do Docker Desktop para inicializar o docker engine.
+
+# Abra o terminal ou prompt de comando, navegue até a pasta com os arquivos e execute:
+
+docker-compose up -d
+
+# o comando abaixo pode ser usado para desligar todos os containers:
+
+docker-compose down
+
+# Se fizer alguma alteração no arquivo yml o comando abaixo pode ser executado para recriar somente a imagem necessária:
+
+docker-compose up --build -d
+
+Depois de subir o ambiente alterar no Airflow a conexão "spark_default"
+Conn Id: spark_default
+Conn Type: Spark
+Host: spark://spark-master
+Port: 7077
